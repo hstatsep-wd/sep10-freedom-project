@@ -5,10 +5,20 @@
 For context, my topic for the Freedom Project is art, and as of the date of this blog, I am finished with both Part A and Part B of my Project. Here's how I did it.
 
 ### Finishing Part B
-After we were done with Part A of the Freedom Project, which was researching for it, we had to use all the information we had gathered to make up ideas of future technology of the topic we did. For me that was the **hardest** part, as making up new ideas was hard. 
+After we were done with Part A of the Freedom Project, which was researching for it, we had to use all the information we had gathered to make up ideas of future technology of the topic we did. The technology ideas however, had to be very new technology, things that hadn't been invented before, or at least yet. For me that was the **hardest** part, as making up new ideas was hard. Luckily, I managed to compile all my information up in at least 3 ideas.
+* VR Art
+* Touch Screen Projector
+* A computer/laptop made solely for digital art
+
+Then I added more details to each of the ideas so I have an idea what I should do with them in the future. While it did take some time to get to that point, I'm satisfied with what I have now. Especially since it helps me finish both parts of the Freedom Project.
 
 ### Organizing All the Info
-After finishing both parts, all I had to do was organize them all together for it to be in one document.
+After finishing both parts, all I had to do was organize them all together for it to be in one document, so I can use them for my future website for my project. For Part A, I wrote a lot, so I had to delete some things, add even more things, and just reorganize all my information together so it's more clearer for me to work on in the future of making this project. I also ended up adding some photos in the meantime, as it is needed for my future website. Here's some of them:
+* [Procreate Photo](https://assets.procreate.art/img/procreate-icon-search-display.png)
+* [Surface Studio Laptop Photo](https://news.microsoft.com/wp-content/uploads/prod/sites/40/2022/02/Surface-Laptop-Studio-Adjusting_960x640.jpg)
+* [Huion Kamvas RDS-160 Photo](https://www.huion.com/statics/hw/site/img/RDS160/rds160-head-pic.png)
+
+I put in a lot more photos, but this is just some of them. Next, I had to add Part B to the document, but I didn't need to change anything about it, so I just copy-pasted it. And then I was done. 
 
 ## EDP (Engineering Design Process)
 I am now on step 3 of the Engineering Design Process of my Project, which is brainstorming possible solutions to my problem. My problem is people aren't aware of the potential of digital art, and how digital artists can unlock a lot of potential if new technology for it is available, which will lead me to transition into step 4, which is plan the most promising solution. It will take some time, but I will get there at some point.
