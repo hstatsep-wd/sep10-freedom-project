@@ -1,20 +1,16 @@
 # Tool Learning Log
 
-Tool: **X**
+Tool: **jQuery**
 
 ---
 
-X/X/X:
-* Text
-
-X/X/X:
-* Text
-
-
-<!-- 
-* Links you used today (websites, videos, etc)
-* Things you tried, progress you made, etc
-* Challenges, a-ha moments, etc
-* Questions you still have
-* What you're going to try next
--->
+3/3/24:
+* Watched this [video](https://www.youtube.com/watch?v=JjIvF0yikGU) about jQuery\
+  * Pretty helpful in making me understand jQuery better
+  * I learned more function to use, like connecting with `css`, `hover`, and more
+    * Can I use jQuery to move and animate things?
+* Studied jQuery at [w3schools](https://www.w3schools.com/jquERy/default.asp)
+  * Very helpful at understanding jQuery more
+    * Did many Tryit Editors in jQuery
+  * Also tinkered in [jsbin](https://jsbin.com/?html,output) a lot to understand the tool better
+    * Is jQuery able to connect with Bootstrap in any way?
