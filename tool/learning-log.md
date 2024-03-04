@@ -16,3 +16,10 @@ Tool: **jQuery**
   * Also tinkered in [jsbin](https://jsbin.com/?html,output) a lot to understand the tool better
     * Is jQuery able to connect with Bootstrap in any way?
     * Is jQuery the first steps of learning JavaScript?
+
+3/4/24:
+* Studied the docs at jQuery [website](https://api.jquery.com/) to see more commands
+  * Learned a lot more commands you could do in jQuery, like callbacks, data, and more
+  * tested out a lot of these in [jsbin](https://jsbin.com/?html,output)
+  * What types of selectors should I use for my website
+* 
