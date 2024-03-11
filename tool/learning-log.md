@@ -22,4 +22,9 @@ Tool: **jQuery**
   * Learned a lot more commands you could do in jQuery, like callbacks, data, and more
   * tested out a lot of these in [jsbin](https://jsbin.com/?html,output)
   * What types of selectors should I use for my website
-* 
+ 
+3/11/24:
+* Went back to [w3schools](https://www.w3schools.com/jquERy/default.asp) to review jQuery
+  * Helped me remember a lot of components in jQuery
+  * I gained further knowledge of jQuery
+  * Managed to review jQuery better, plus practiced in [jsbin](https://jsbin.com/)
