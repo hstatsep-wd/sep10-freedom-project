@@ -28,3 +28,9 @@ Tool: **jQuery**
   * Helped me remember a lot of components in jQuery
   * I gained further knowledge of jQuery
   * Managed to review jQuery better, plus practiced in [jsbin](https://jsbin.com/)
+ 
+3/18/24:
+* Went to practice in [jsbin](https://jsbin.com/)
+  * Helped me with remembering what commands there are in jQuery
+  * Practiced a lot more thanks to tinkering on jsbin
+  * Can utilize jQuery quite well for my project
