@@ -47,4 +47,5 @@ Tool: **jQuery**
   * Also learned the different between removeClass and addClass (removeClass needs to have a class already inputted in the elements, addClass doesn't as it adds the class for you)
   * toggleClass both adds and removes elements, which is neat
 * Also learned about css() method on [w3schools](https://www.w3schools.com/jquERy/jquery_css.asp) & [jQuery docs](https://api.jquery.com/css/)
-  *
+  * Tinkered with the Try-It Editors in w3schools ![Screenshot 2024-04-03 125618](https://github.com/simrans4258/sep10-freedom-project/assets/146861300/084d805f-5019-4f97-a308-ded8af54f23c)
+  * Learned how to utilize css() method to change the css of my website more easily and to make it more fun with the design, plan to use this for my freedom project website
