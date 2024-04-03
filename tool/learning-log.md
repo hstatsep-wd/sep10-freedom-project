@@ -40,3 +40,11 @@ Tool: **jQuery**
   * Viewed catergories like [Events](https://api.jquery.com/category/events/) and [Effects](https://api.jquery.com/category/effects/)
   * Learned about effects like `clearQueue` and `delay`
   * Practiced on [jsbin](https://jsbin.com/naxodiperi/edit?html,css,output)
+ 
+4/3/24:
+* Tinkered with CSS classes using w3schools [jQuery CSS classes lesson](https://www.w3schools.com/jquERy/jquery_css_classes.asp)
+  * Ended up tinkering with the Try-It Editors in w3schools ![Screenshot 2024-04-03 115252](https://github.com/simrans4258/sep10-freedom-project/assets/146861300/2ff0f37d-4944-46a3-98b7-1487d7843cd1)![Screenshot 2024-04-03 115500](https://github.com/simrans4258/sep10-freedom-project/assets/146861300/bd194413-df83-4fc5-a336-9de686f7d9b4)
+  * Also learned the different between removeClass and addClass (removeClass needs to have a class already inputted in the elements, addClass doesn't as it adds the class for you)
+  * toggleClass both adds and removes elements, which is neat
+* Also learned about css() method on [w3schools](https://www.w3schools.com/jquERy/jquery_css.asp) & [jQuery docs](https://api.jquery.com/css/)
+  *
