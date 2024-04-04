@@ -49,3 +49,13 @@ Tool: **jQuery**
 * Also learned about css() method on [w3schools](https://www.w3schools.com/jquERy/jquery_css.asp) & [jQuery docs](https://api.jquery.com/css/)
   * Tinkered with the Try-It Editors in w3schools ![Screenshot 2024-04-03 125618](https://github.com/simrans4258/sep10-freedom-project/assets/146861300/084d805f-5019-4f97-a308-ded8af54f23c)
   * Learned how to utilize css() method to change the css of my website more easily and to make it more fun with the design, plan to use this for my freedom project website
+
+4/4/24:
+* Learned about [jQuery Callback Function](https://www.w3schools.com/jquERy/jquery_callback.asp) in w3schools
+  * Tinkered with Callback Function in [jsbin](https://jsbin.com/tuvamigaki/1/edit?html,output)
+  * Learned about how to use functions in a function to create ordered functions with jQuery
+  * Also learned a bit more about using alerts with jQuery, which is nice
+* Also learned about [jQuery Chaining](https://www.w3schools.com/jquERy/jquery_chaining.asp) a bit more using w3schools
+  * Tinkered with chaining with [jsbin](https://jsbin.com/huyecabuda/edit?html,output)
+  * Chaining makes functions happen almost around the same time, and is useful for things like animation for example
+  * Helps remove extra space and makes it more easier to keep up with effects and functions in jQuery
