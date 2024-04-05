@@ -59,3 +59,9 @@ Tool: **jQuery**
   * Tinkered with chaining with [jsbin](https://jsbin.com/huyecabuda/edit?html,output)
   * Chaining makes functions happen almost around the same time, and is useful for things like animation for example
   * Helps remove extra space and makes it more easier to keep up with effects and functions in jQuery
+
+4/5/24:
+* Focused more on animation thanks to [jQuery Effects - Animate](https://www.w3schools.com/jquERy/jquery_animate.asp) in w3schools
+   * Learned more about `animate()` effect in jQuery, makes it easier to animate website using this tool
+   * Tried out things like `toggle`, numbers, and much more
+   * Tinkered it all in [jsbin](https://jsbin.com/dohewanobe/edit?html,css,output)
