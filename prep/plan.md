@@ -22,7 +22,7 @@
 
 #### MVP
 * 4/9 - worked on wireframe
-* 4/11 - working on plan
+* 4/11 - worked on plan/finalize wireframe + come up of ideas for colors and fonts
 * 4/12 - get some basic code in website/get a template
 * 4/15-4/19 - code most of my containers in, according to wireframe
 * spring break - work more on the css and design of website/edit some other things
