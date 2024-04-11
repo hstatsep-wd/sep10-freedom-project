@@ -1,8 +1,8 @@
 # Plan
 
 ## Wireframes
-* [Mobile](prep/fp1.jpg)
-* [Desktop](prep/fp.jpg)
+* [Mobile](fp1.jpg)
+* [Desktop](fp.jpg)
 
 ## Colors
 * `#25283d`
