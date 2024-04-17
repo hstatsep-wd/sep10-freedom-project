@@ -13,6 +13,13 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet"/>
         <script>https://code.jquery.com/jquery-3.7.1.min.js</script>
+        <script>
+            $(document).ready(function(){
+                $("button").click(function(){
+                    $("p").slideToggle("slow");
+                });
+            });
+        </script>
     </head>
     <body>
         <!-- Responsive navbar-->
