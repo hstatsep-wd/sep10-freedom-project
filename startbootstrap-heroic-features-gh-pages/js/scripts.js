@@ -7,6 +7,6 @@
 // Use this file to add JavaScript to your project
 $(document).ready(function(){
     $("button").click(function(){
-        $(".fs-4").slideToggle("slow");
+        $("#button").slideToggle("slow");
     });
 });
