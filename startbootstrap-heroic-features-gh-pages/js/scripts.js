@@ -6,7 +6,19 @@
 // This file is intentionally blank
 // Use this file to add JavaScript to your project
 $(document).ready(function(){
-    $("button").click(function(){
-        $("#button").slideToggle("slow");
+    $("#button1").click(function(){
+        $("#thing1").slideToggle("slow");
+    });
+});
+
+$(document).ready(function(){
+    $("#button2").click(function(){
+        $("#thing2").slideToggle("slow");
+    });
+});
+
+$(document).ready(function(){
+    $("#button3").click(function(){
+        $("#thing3").slideToggle("slow");
     });
 });
