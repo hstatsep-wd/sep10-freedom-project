@@ -7,18 +7,18 @@
 // Use this file to add JavaScript to your project
 $(document).ready(function(){
     $("#button1").click(function(){
-        $("#thing1").toggle("hide");
+        $("#thing1").fadeToggle("hide");
     });
 });
 
 $(document).ready(function(){
     $("#button2").click(function(){
-        $("#thing2").toggle("hide");
+        $("#thing2").fadeToggle("hide");
     });
 });
 
 $(document).ready(function(){
     $("#button3").click(function(){
-        $("#thing3").toggle("hide");
+        $("#thing3").fadeToggle("hide");
     });
 });
