@@ -4141,7 +4141,7 @@ textarea.form-control-lg {
   min-width: 0;
   height: var(--bs-card-height);
   word-wrap: break-word;
-  background-color: #98dfea;
+  background-color: var(--bs-card-bg);
   background-clip: border-box;
   border: var(--bs-card-border-width) solid var(--bs-card-border-color);
   border-radius: var(--bs-card-border-radius);
@@ -4173,6 +4173,7 @@ textarea.form-control-lg {
   flex: 1 1 auto;
   padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
   color: var(--bs-card-color);
+  background-color: #98dfea;
 }
 
 .card-title {
