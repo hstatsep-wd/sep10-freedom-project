@@ -7627,6 +7627,7 @@ nav {
 
 .mb-0 {
   margin-bottom: 0 !important;
+  color: #774c60;
 }
 
 .mb-1 {
@@ -8053,6 +8054,7 @@ nav {
 
 .fs-4 {
   font-size: calc(1.275rem + 0.3vw) !important;
+  color: #372549 !important;
 }
 
 .fs-5 {
