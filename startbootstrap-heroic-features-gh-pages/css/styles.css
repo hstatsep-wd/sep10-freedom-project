@@ -183,7 +183,7 @@ address {
 
 ol, ul {
   padding-left: 2rem;
-  font-size: 15px;
+  font-size: 17px;
 }
 
 ol, ul, dl {
@@ -7629,6 +7629,7 @@ nav {
 .mb-0 {
   margin-bottom: 0 !important;
   color: #774c60;
+  font-family: Josefin Sans;
 }
 
 .mb-1 {
