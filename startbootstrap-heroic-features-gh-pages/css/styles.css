@@ -8380,6 +8380,7 @@ nav {
 
 .rounded-3 {
   border-radius: var(--bs-border-radius-lg) !important;
+  background-color: #07beb8;
 }
 
 .rounded-4 {
