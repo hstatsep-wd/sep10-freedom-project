@@ -299,6 +299,10 @@ img, svg {
   vertical-align: middle;
 }
 
+#thing1, #thing2, #thing3 {
+  display: none;
+}
+
 table {
   caption-side: bottom;
   border-collapse: collapse;
@@ -7848,7 +7852,10 @@ nav {
 }
 
 .p-3 {
-  padding: 1rem !important;
+  padding-top: 1rem !important;
+  font-family: Josefin Sans;
+  color: #774c60;
+  text-decoration: underline dashed;
 }
 
 .p-4 {
@@ -10139,7 +10146,7 @@ nav {
     padding-left: 1.5rem !important;
   }
   .px-lg-5 {
-    padding: 3rem !important;
+    padding: 2rem !important;
   }
   .py-lg-0 {
     padding-top: 0 !important;
