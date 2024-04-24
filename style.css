@@ -303,6 +303,11 @@ img, svg {
   display: none;
 }
 
+#software, #hardware {
+  padding: 10px;
+  text-decoration: underline dotted;
+}
+
 table {
   caption-side: bottom;
   border-collapse: collapse;
