@@ -35,3 +35,9 @@
 * add more of jQuery to my website
 * add more fonts/colors to the website
 * add cool effects
+
+#### Revisions
+- [ ] make the images more smaller
+- [ ] make the boxes the same height
+- [ ] make the words a bit bigger
+- [ ] make borders to separate the content
