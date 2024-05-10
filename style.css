@@ -4196,6 +4196,7 @@ nav {
   flex: 1 1 auto;
   padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
   color: var(--bs-card-color);
+  font-size: 18px;
 }
 
 .card-title {
