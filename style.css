@@ -195,7 +195,7 @@ ol, ul, dl {
 }
 
 ol ol, ul ul, ol ul, ul ol {
-  margin-bottom: 0;
+  margin-top: 2px;
 }
 
 dt {
