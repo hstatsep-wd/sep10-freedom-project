@@ -7640,7 +7640,7 @@ nav {
 }
 
 .mb-0 {
-  margin-bottom: 0 !important;
+  padding-bottom: 2 !important;
   color: #774c60;
   font-family: Josefin Sans;
   font-size: 18px;
