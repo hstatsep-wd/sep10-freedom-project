@@ -1,8 +1,28 @@
 # Entry 7
-##### X/X/XX
+##### 5/29/24
 
-Text
+## End of the Year Presentations
 
-[Previous](entry06.md) | [Next](entry08.md)
+### Takeaways from Expo
+
+
+### Takeaways from In-Class Presentations
+
+
+## EDP
+
+
+## Skills
+
+### Public Speaking
+
+
+### Courage
+
+
+## What's Next
+
+
+[Previous](entry06.md)
 
 [Home](../README.md)
