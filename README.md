@@ -9,15 +9,15 @@ For my project, I chose the topic of **art**.
 I used HTML, CSS, Bootstrap, and Github. I also chose to independently study **jQuery** in order to help me make by website.
 
 ## Links
-[Product]()
+[Product](https://simrans4258.github.io/sep10-freedom-project)
 
-[Presentation]()
+[Presentation](https://docs.google.com/presentation/d/1ZbeCM7yjlAbbqWwDg6kIwTX4jgdy7UJv2mKm23fC_FM/edit#slide=id.g2dcab4a69e9_0_0)
 
 ## Implications
 ##### PROS
-* 
+* Art helps with connecting people together
 ##### CONS
-* 
+* Art can get people in trouble, as things like plagarism, stealing, and much more happen in the art world a lot
 
 ## Blog
 Below you will find my blog about how I made my project.
@@ -29,6 +29,3 @@ Below you will find my blog about how I made my project.
 * [Entry 5](blog/entry05.md)
 * [Entry 6](blog/entry06.md)
 * [Entry 7](blog/entry07.md)
-* [Entry 8](blog/entry08.md)
-* [Entry 9](blog/entry09.md)
-* [Entry 10](blog/entry10.md)
