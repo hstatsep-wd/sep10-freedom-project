@@ -16,8 +16,11 @@ I used HTML, CSS, Bootstrap, and Github. I also chose to independently study **j
 ## Implications
 ##### PROS
 * Art helps with connecting people together
+* art helps people express themselves
+* Art can make people money once successful
 ##### CONS
 * Art can get people in trouble, as things like plagarism, stealing, and much more happen in the art world a lot
+* If you aren't successful if you decide to pursue art as a career, you are screwed
 
 ## Blog
 Below you will find my blog about how I made my project.
