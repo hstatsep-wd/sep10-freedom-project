@@ -24,7 +24,7 @@ https://faculty.tuck.dartmouth.edu/images/uploads/faculty/ron-adner/dup-1EIS_Mai
 https://www.5dmemorycrystal.com/technology/
 
 
-### skills
+# skills
 I learned how to work on a project and to organize and research for said project by working on this, because before I worked on this i was very disorganized.
 
   
