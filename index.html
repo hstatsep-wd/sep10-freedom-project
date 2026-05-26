@@ -1,29 +1,287 @@
-<!DOCTYPE html>
 <html>
+    <!--hi mr mueller its kenji from the past, I ran out of time to do this so i am cannonball running this at the last day, sorry if its sloppy :^)-->
     <head>
-        <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
         <link href="style.css" rel="stylesheet" type="text/css" />
-        <style>
-            /* CSS */
-            
-        </style>
-        
-        <title>Title</title>
+
+        <title>Made by kenji denaro</title>
     </head>
     <body>
-        <!-- HTML -->
-        
-        
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- <script src="script.js"></script> -->
-        <script>
-            // JS
-            
-            
-        </script>
-    </body>
-</html>
+        <style>
+
+            .logothing  {
+                width: 20px;
+            }
+            .classthatmakestextbig  {
+                text-align: center;
+                font-size: 50px;
+            }
+
+            .p {
+                font-size: 11px;
+            }
+            .displaycarousel {
+                width: 1000px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+
+            }
+            .punchcard {
+                width: 300px;
+                border: 15px;
+                margin: 20px;
+                background-color: #ffda75;
+                border-radius: 10px;
+            }
+            .logo{
+                color: #0530AD;
+                font-family: "Tiny5", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                font-size: 25px;
+            }
+            .smallimg{
+                width: 100px;
+                height: 100px;
+            }
+            .center {
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+
+            }
+
+
+
+
+        </style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tiny5&display=swap" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="./img/logothingymabob.png" alt="Logo" class="logothing"> Preservation of Information
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#data">Data</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#punchcard">Punch Card</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#history">History</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#future">Future</a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+<h1 class="classthatmakestextbig">Preservation of Information</h1>
+<img class="displaycarousel center" src="./img/data.jpeg"></img>
+<br>
+<div class="container">
+    <h1 class="classthatmakestextbig">What is Information?</h1>
+    <div class="card">
+        <div class="card-body" id="data">
+            Information is what makes up most of human history, which can come in many different forms, from the text messages on your phone to programs on computers, to even non technological things like books, music and art. the problem is that most data will degrade in a certain amount of time, which means it would be lost forever. the goal of this page is to share ideas of new ways of storing data for future generations and also showing the history of data storing technology.
+        </div>
+    </div>
+    <h1 class="classthatmakestextbig">Example of punch card</h1>
+    <div class="container" id="punchcard">
+        <div>
+  <p class="logo">‎ ‎ PUNCHCARD</p>
+<input type="checkbox" id="1" name="myCheckbox" value="1">
+<br>
+<input type="checkbox" id="2" name="myCheckbox" value="1">
+<br>
+<input type="checkbox" id="3" name="myCheckbox" value="1">
+<br>
+<input type="checkbox" id="4" name="myCheckbox" value="1">
+<br>
+<input type="checkbox" id="5" name="myCheckbox" value="1">
+<br>
+<input type="checkbox" id="6" name="myCheckbox" value="1">
+<br>
+<input type="checkbox" id="7" name="myCheckbox" value="1">
+<br>
+</div>
+<div class="punchcard">
+    <script>
+        i = 0;
+
+        let asciiChar = String.fromCodePoint(i);
+
+        $('#1').change(function() {
+            if ($(this).is(':checked')) {
+                $("span").text(i += 1);
+                $('.idk').text(String.fromCodePoint(i));
+            } else {
+	            $("span").text(i -= 1);
+                $('.idk').text(String.fromCodePoint(i));
+            }
+        });
+        $('#2').change(function() {
+            if ($(this).is(':checked')) {
+                $("span").text(i += 2);
+                $('.idk').text(String.fromCodePoint(i));
+            } else {
+	            $("span").text(i -= 2);
+                $('.idk').text(String.fromCodePoint(i));
+            }
+        });
+        $('#3').change(function() {
+            if ($(this).is(':checked')) {
+                $("span").text(i += 4);
+                $('.idk').text(String.fromCodePoint(i));
+            } else {
+	            $("span").text(i -= 4);
+                $('.idk').text(String.fromCodePoint(i));
+            }
+        });
+        $('#4').change(function() {
+            if ($(this).is(':checked')) {
+                $("span").text(i += 8);
+                $('.idk').text(String.fromCodePoint(i));
+            } else {
+	            $("span").text(i -= 8);
+                $('.idk').text(String.fromCodePoint(i));
+            }
+        });
+        $('#5').change(function() {
+            if ($(this).is(':checked')) {
+                $("span").text(i += 16);
+                $('.idk').text(String.fromCodePoint(i));
+            } else {
+	            $("span").text(i -= 16);
+                $('.idk').text(String.fromCodePoint(i));
+            }
+        });
+        $('#6').change(function() {
+            if ($(this).is(':checked')) {
+                $("span").text(i += 32);
+                $('.idk').text(String.fromCodePoint(i));
+            } else {
+	            $("span").text(i -= 32);
+                $('.idk').text(String.fromCodePoint(i));
+
+            }
+        });
+        $('#7').change(function() {
+            if ($(this).is(':checked')) {
+                $("span").text(i += 64);
+                $('.idk').text(String.fromCodePoint(i));
+            } else {
+	            $("span").text(i -= 64);
+                $('.idk').text(String.fromCodePoint(i));
+
+            }
+            if (i == 127) {
+                $('.idk').text("this is an example of a lace card meant to break reading machines, please dont do this. also the max value for ascii is 126 so this means nothing.");
+            }
+        });
+    </script>
+</div>
+
+
+<p>Value: <span>0</span></p>
+<p>Character: <span class="idk"></span></p>
+    </div>
+
+
+
+
+</div>
+<h1 class="classthatmakestextbig" id="history">History of Digital Information</h1>
+<div class="container">
+    <p>1820: Punch Cards</p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Used_Punchcard_%285151286161%29.jpg/600px-Used_Punchcard_%285151286161%29.jpg" class="smallimg"></img>
+    <ul>
+        <li>Original use was meant for the making of clothing</li>
+        <li>Was a major aid the 1890 election in the united states</li>
+        <li>Was the original way to program computers</li>
+    </ul>
+    <p>1887: Vinyl Record</p>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPebt0_NmsRK3sGnQxvyF2u_unfwY0hpanPA&s" class="smallimg"></img>
+    <ul>
+        <li>Used vibrations of a record to play music</li>
+        <li>Still used today with a popularity amongst music enthusiasts</li>
+        <li>Can store up to 400MB of data at max</li>
+    </ul>
+    <p>1951: Magnetic Tape </p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Largetape.jpg/220px-Largetape.jpg" class="smallimg"></img>
+    <ul>
+        <li>Is way faster than punch cards</li>
+        <li>Was developed when computers became too fast to use punch cards</li>
+        <li>Can store up to 80Kb of storage (about the size of a jpeg photo)</li>
+    </ul>
+    <p>1967: Floppy Disk </p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Floppy_disc.jpg/220px-Floppy_disc.jpg" class="smallimg"></img>
+    <ul>
+        <li>Used similar technology to a magnetic tape</li>
+        <li>Had a storage capacity of 240 kb while being more compact</li>
+        <li>Uses a similar technology would be used in cds</li>
+    </ul>
+    <p>1969: The Internet </p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/A_sketch_of_the_ARPANET_in_December_1969.png/440px-A_sketch_of_the_ARPANET_in_December_1969.png" class="smallimg"></img>
+    <ul>
+        <li>Was made as a way for the government to communicate with other branches during the cold war</li>
+        <li>Was only used early on by academic organizations who had the trust from the government</li>
+        <li>The true public internet was born in 1983</li>
+    </ul>
+    <p>1977: Voyager 1 record </p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/The_Sounds_of_Earth_Record_Cover_-_GPN-2000-001978.jpg/200px-The_Sounds_of_Earth_Record_Cover_-_GPN-2000-001978.jpg" class="smallimg"></img>
+    <ul>
+        <li>Was made to last billions of years</li>
+        <li>Has information about earth on it and photos</li>
+        <li>Teaches you how to decode it, and the location of earth and our solar system</li>
+    </ul>
+    <p>1982: Compact Disc </p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/CD_autolev_crop_new.jpg/440px-CD_autolev_crop_new.jpg" class="smallimg"></img>
+    <ul>
+        <li>Was thought to not sell well at the time</li>
+        <li>Had better quality audio files than any other standard that the time</li>
+        <li>Was able to store music, movies, software, and photos</li>
+    </ul>
+    <p>1991: World Wide Web </p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Wikimedia_Foundation_Servers-8055_35.jpg/550px-Wikimedia_Foundation_Servers-8055_35.jpg" class="smallimg"></img>
+    <ul>
+        <li>Allowed people to access information quickly within their own home</li>
+        <li>Was actually made in 1983 but became public in 1991</li>
+        <li>The first website is still up today</li>
+    </ul>
+    <p>2013: 5D optical storage</p>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi8vUVbwKPugASYTHSWX_CIV8zpSb5DWfNPA&s" class="smallimg"></img>
+    <ul>
+        <li>Can last 10^20 years</li>
+        <li>Can handle temperatures up to 1000 degrees celsius</li>
+        <li>Can store up to 360 terabytes of data</li>
+    </ul>
+
+
+
+
+
+</div>
+<h1 class="classthatmakestextbig"> The Future</h1>
+<br>
+<br>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNU-MvhBF0p866wqQBRCkmF5sh9gHK-IO7sQ&s" class="center" id="future"></img>
+<p>my idea for the future is making an organization that has the goal of preserving information for generations, curating and making sure nothing is lost. they would back up information in various ways over multiple copies so that if they are lost, they could easily be restored.</p>
+
+<div class="footer text-center">
+        <h3><strong>Made By Kenji Denaro</strong></h3>
+    </div>

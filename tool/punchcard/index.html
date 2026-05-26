@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    div {
+    width: 300px;
+    border: 15px;
+    margin: 20px;
+    background-color: #ffda75;
+    border-radius: 10px;
+  }
+  .logo{
+    color: #0530AD;
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+  }
+
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tiny5&display=swap" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<div>
+  <p class="logo">‎ ‎ PUNCHCARD</p>
+<input type="checkbox" id="1" name="myCheckbox" value="1">
+<br>
+<input type="checkbox" id="2" name="myCheckbox" value="1">
+<br>
+<input type="checkbox" id="3" name="myCheckbox" value="1">
+<br>
+<input type="checkbox" id="4" name="myCheckbox" value="1">
+<br>
+<input type="checkbox" id="5" name="myCheckbox" value="1">
+<br>
+<input type="checkbox" id="6" name="myCheckbox" value="1">
+<br>
+<input type="checkbox" id="7" name="myCheckbox" value="1">
+<br>
+</div>
+<script>
+i = 0;
+
+let asciiChar = String.fromCodePoint(i);
+
+$('#1').change(function() {
+  if ($(this).is(':checked')) {
+    $("span").text(i += 1);
+    $('.idk').text(String.fromCodePoint(i));
+  } else {
+	$("span").text(i -= 1);
+    $('.idk').text(String.fromCodePoint(i));
+  }
+});
+$('#2').change(function() {
+  if ($(this).is(':checked')) {
+    $("span").text(i += 2);
+    $('.idk').text(String.fromCodePoint(i));
+  } else {
+	$("span").text(i -= 2);
+    $('.idk').text(String.fromCodePoint(i));
+  }
+});
+$('#3').change(function() {
+  if ($(this).is(':checked')) {
+    $("span").text(i += 4);
+    $('.idk').text(String.fromCodePoint(i));
+  } else {
+	$("span").text(i -= 4);
+    $('.idk').text(String.fromCodePoint(i));
+  }
+});
+$('#4').change(function() {
+  if ($(this).is(':checked')) {
+    $("span").text(i += 8);
+    $('.idk').text(String.fromCodePoint(i));
+  } else {
+	$("span").text(i -= 8);
+    $('.idk').text(String.fromCodePoint(i));
+  }
+});
+$('#5').change(function() {
+  if ($(this).is(':checked')) {
+    $("span").text(i += 16);
+    $('.idk').text(String.fromCodePoint(i));
+  } else {
+	$("span").text(i -= 16);
+    $('.idk').text(String.fromCodePoint(i));
+  }
+});
+$('#6').change(function() {
+  if ($(this).is(':checked')) {
+    $("span").text(i += 32);
+    $('.idk').text(String.fromCodePoint(i));
+  } else {
+	$("span").text(i -= 32);
+    $('.idk').text(String.fromCodePoint(i));
+
+  }
+});
+$('#7').change(function() {
+  if ($(this).is(':checked')) {
+    $("span").text(i += 64);
+    $('.idk').text(String.fromCodePoint(i));
+  } else {
+	$("span").text(i -= 64);
+    $('.idk').text(String.fromCodePoint(i));
+
+  }
+  if (i == 127) {
+    $('.idk').text("this is an example of a lace card meant to break reading machines, please dont do this. also the max value for ascii is 126 so this means nothing.");
+}
+});
+</script>
+</head>
+<body>
+
+
+<p>Value: <span>0</span></p>
+<p>Character: <span class="idk"></span></p>
+
+</body>
+</html>
